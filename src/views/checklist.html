@@ -28,7 +28,7 @@
   -->
   <div class="slds-p-horizontal--large slds-col slds-size--2-of-3">
     <h2 class="slds-text-heading--medium slds-m-top--large">Example of injected data</h2>
-    <p class="slds-text-body--regular slds-m-vertical--large">Data shown in this table comes from <a href="https://github.com/salesforce-ux/design-system-starter-kit/blob/master/src/views/data/example.json"><code>views/data/example.json</code></a>.</p>
+    <p class="slds-text-body--regular slds-m-vertical--large">Data shown in this table comes from <a href="https://github.com/salesforce-ux/design-system-starter-kit/blob/master/src/views/data/checklist.json"><code>views/data/checklist.json</code></a>.</p>
 
     <!--
       Data table component
@@ -64,19 +64,16 @@
           Looping around values in Nunjucks
           http://mozilla.github.io/nunjucks/templating.html#for
         -->
-        {% for account in accounts %}
+        {% for checklistItem in checklistItems %}
         <tr>
-          <th scope="row" data-label="Account Name">
-            <div class="slds-truncate" title="{{ account.name }}"><a href="javascript:void(0);">{{ account.name }}</a></div>
+          <th scope="row" data-label="Item Name">
+            <div class="slds-truncate" title="{{ checklistItem.name }}"><a href="javascript:void(0);">{{ checklistItem.name }}</a></div>
           </th>
-          <td data-label="Billing State/Province">
-            <div class="slds-truncate" title="{{ account.state }}">{{ account.state }}</div>
+          <td data-label="Status">
+            <div class="slds-truncate" title="{{ checklistItem.status }}">{{ checklistItem.status }}</div>
           </td>
           <td data-label="Phone">
-            <div class="slds-truncate" title="{{ account.phone }}">{{ account.phone }}</div>
-          </td>
-          <td data-label="Type">
-            <div class="slds-truncate" title="{{ account.type }}">{{ account.type }}</div>
+            <div class="slds-truncate" title="{{ checklistItem.helpText }}">{{ checklistItem.helpText }}</div>
           </td>
         </tr>
         {% endfor %}
