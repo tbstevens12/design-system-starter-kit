@@ -1,0 +1,59 @@
+{
+  "checklistId": "283940583",
+  "checklistName": "Checklist Name",
+  "checklistStatus": "Open",
+  "checklistDesc": "This is a description of the checklist",
+  "itemsIncluded": "6",
+  "itemsExcluded": "1",
+  "itemsClosed": "3",
+  "itemsOpen": "3",
+  "itemsOpenAwaitingApproval":"1",
+  "itemsClosedOnWaiver": "1",
+  "itemsClosedOnCompletion": "2",
+  "checklistCompletedDate": "",
+  "checklistItems": [
+    {
+      "itemId": "299393929",
+      "name": "Copy of Drivers License",
+      "status": "Open",
+	  "helpText": "Please provide your drivers license in a good readable format.",
+      "lastComment": "This is the last comment",
+      "lastModifiedBy": "John Doe",
+      "lastModifiedDate": "01/12/2018 10:57am",
+      "fileRequested": true,
+      "markedAsComplete": true,
+      "completedBy": "John Doe",
+      "completedDate": "1/12/2018 10:57am",
+      "requiresApproval": false,
+      "approvalBy": "",
+      "approvalDate": "",
+      "closedDate": "1/12/2018 10:57am"
+      "numberOfFiles": "2",
+      "itemFiles": [
+         {
+            fileId:"2828282",
+            fileName: "Drivers_License.jpg",
+            fileDescription: "",
+            fileSize: "32 kb",
+            internalLink: "http://www.google.com",
+            externalLink: "http://www.google.com",
+            uploadBy: "John Doe",
+            uploadDate: "1/12/2018 10:57am"
+         }
+       ],
+      "itemComments": [
+         {
+            commentId: "1939383828",
+            parentCommentId: "",
+            comment: "I like this new commenting feature. Do you like it John?",
+            commentBy: "Sally May",
+            commentDate: "1/12/2018 10:57am",
+            followUpRequested: true,
+            commentDirectedToName: "John Doe",
+            commentDirectedToEmail: "johndoe@sample.org
+         }
+       ]
+    },
+
+  ]
+}
