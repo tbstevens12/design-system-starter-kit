@@ -4,5 +4,6 @@
   // To access this data in a view, you'd write:
   // {{ shared.somedata }}
   "somedata": "somevalue",
-  "builtWith": "Salesforce Lightning Design System Starter Kit"
+  "builtWith": "Salesforce Lightning Design System Starter Kit",
+  "companyName": "Tamarack"
 }
